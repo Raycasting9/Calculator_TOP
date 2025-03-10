@@ -1,0 +1,11 @@
+.calcBody {
+    margin: 0 auto;
+    display: grid;
+    border-radius: 12px;
+    height: 500px;
+    width: 400px;
+    background-color: gray;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5px;
+    gap: 3px 3px;
+}
