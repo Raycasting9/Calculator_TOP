@@ -1,11 +1,56 @@
 .calcBody {
     margin: 0 auto;
-    display: grid;
-    border-radius: 12px;
+    flex-direction: column;
     height: 500px;
-    width: 400px;
-    background-color: gray;
+    width: 350px;
+    background-color: #505050;
     grid-template-columns: repeat(4, 1fr);
-    padding: 5px;
-    gap: 3px 3px;
+    padding: 4px;
+    display: flex;
+    border-radius: 12px
+    
+}
+
+.display {
+    background-color: #505050;
+    height: 100px;
+    border-radius: 8px 8px 0 0;
+}
+
+.buttons {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.divideBut, .multiplyBut, .minusBut, .plusBut, .equalBut {
+    background-color: #f1a23b !important;
+}
+
+.ACBut, .percentBut, .changeSignBut {
+    background-color: #616161 !important;
+}
+
+.buttons div{
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7b7b7b;
+    width: 85px;
+    height: 77px;
+}
+
+.deciBut {
+    border-radius: 0 0 0 8px;
+}
+
+.equalBut {
+    border-radius: 0 0 8px 0 ;
 }
